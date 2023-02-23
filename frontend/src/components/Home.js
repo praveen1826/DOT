@@ -1,12 +1,12 @@
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import React, { useState, useEffect } from "react";
 import ReactHtmlParser from "react-html-parser";
+import NavigationBar from "./NavBar";
 
 function Home() {
   const [cases, setCases] = useState(0);
@@ -36,23 +36,11 @@ function Home() {
   }, []);
 
   return (
-    <div className="App">
-      <Navbar bg="light" expand="lg">
-        <Container>
-          <Navbar.Brand href="#home">Disease OutBreak Tracker</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Predictions</Nav.Link>
-              <Nav.Link href="#link">Analytics</Nav.Link>
-              <Nav.Link href="#link">News</Nav.Link>
-              <Nav.Link href="#link">About</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-
+    <div
+      className="App"
+      style={{ backgroundColor: "#D6A3FB", height: "100vh" }}
+    >
+      <NavigationBar />
       <Container>
         <Row>
           <Col sm={8}>
