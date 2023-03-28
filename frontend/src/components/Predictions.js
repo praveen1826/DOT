@@ -14,7 +14,7 @@ function Predictions() {
 
   //127.0.0.1:8000/predict/
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/predict/")
+    fetch("http://20.219.13.160:8000/predict/")
       .then((response) => response.json())
       .then((resData) => {
         setPredictions({ predictions: resData });

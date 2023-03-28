@@ -2,6 +2,12 @@ import fetch from "node-fetch";
 import express from "express";
 import cors from "cors";
 import puppeteer from "puppeteer";
+import path from "path";
+import { dirname } from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 let url =
   "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/latest/owid-covid-latest.json";
@@ -42,3 +48,12 @@ const crawler = (async () => {
 
   await browser.close();
 })();
+
+const app = express();
+app.use(express.static(path.join(__dirname, "build")));
+
+app.get("/", async (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
+app.listen(3001);

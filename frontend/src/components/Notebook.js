@@ -6,7 +6,7 @@ function Notebook() {
     <div>
       <NavigationBar />
       <iframe
-        src="https://www.kaggle.com/embed/praveen0123/tarp-project?kernelSessionId=120031001"
+        src="https://www.kaggle.com/embed/praveen0123/tarp-project?kernelSessionId=122622528"
         height={800}
         style={{ margin: "0 auto", width: "100%" }}
         frameBorder={0}
