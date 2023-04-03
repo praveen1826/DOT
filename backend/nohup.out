@@ -1,0 +1,349 @@
+{
+  continent: 'Asia',
+  location: 'India',
+  last_updated_date: '2023-04-02',
+  total_cases: 44707525,
+  new_cases: 1573,
+  new_cases_smoothed: 1505.857,
+  total_deaths: 530841,
+  new_deaths: 0,
+  new_deaths_smoothed: 4,
+  total_cases_per_million: 31546.975,
+  new_cases_per_million: 1.11,
+  new_cases_smoothed_per_million: 1.063,
+  total_deaths_per_million: 374.577,
+  new_deaths_per_million: 0,
+  new_deaths_smoothed_per_million: 0.003,
+  reproduction_rate: null,
+  icu_patients: null,
+  icu_patients_per_million: null,
+  hosp_patients: null,
+  hosp_patients_per_million: null,
+  weekly_icu_admissions: null,
+  weekly_icu_admissions_per_million: null,
+  weekly_hosp_admissions: null,
+  weekly_hosp_admissions_per_million: null,
+  total_tests: null,
+  new_tests: null,
+  total_tests_per_thousand: null,
+  new_tests_per_thousand: null,
+  new_tests_smoothed: null,
+  new_tests_smoothed_per_thousand: null,
+  positive_rate: null,
+  tests_per_case: null,
+  tests_units: null,
+  total_vaccinations: 2206584467,
+  people_vaccinated: 1027400039,
+  people_fully_vaccinated: 951961044,
+  total_boosters: 227223384,
+  new_vaccinations: 2295,
+  new_vaccinations_smoothed: 8431,
+  total_vaccinations_per_hundred: 155.7,
+  people_vaccinated_per_hundred: 72.5,
+  people_fully_vaccinated_per_hundred: 67.17,
+  total_boosters_per_hundred: 16.03,
+  new_vaccinations_smoothed_per_million: 6,
+  new_people_vaccinated_smoothed: 939,
+  new_people_vaccinated_smoothed_per_hundred: 0,
+  stringency_index: null,
+  population_density: 450.419,
+  median_age: 28.2,
+  aged_65_older: 5.989,
+  aged_70_older: 3.414,
+  gdp_per_capita: 6426.674,
+  extreme_poverty: 21.2,
+  cardiovasc_death_rate: 282.28,
+  diabetes_prevalence: 10.39,
+  female_smokers: 1.9,
+  male_smokers: 20.6,
+  handwashing_facilities: 59.55,
+  hospital_beds_per_thousand: 0.53,
+  life_expectancy: 69.66,
+  human_development_index: 0.645,
+  population: 1417173120,
+  excess_mortality_cumulative_absolute: null,
+  excess_mortality_cumulative: null,
+  excess_mortality: null,
+  excess_mortality_cumulative_per_million: null
+}
+Disease Outbreak News
+24 March 2023 | Iatrogenic Botulism- European Region
+Disease Outbreak News
+24 March 2023 | Marburg virus disease - United Republic of Tanzania
+Disease Outbreak News
+23 March 2023 | Geographical expansion of cases of dengue and chikungunya beyond the historical areas of transmission in the Region of the Americas
+Disease Outbreak News
+22 March 2023 | Marburg virus disease - Equatorial Guinea
+Disease Outbreak News
+21 March 2023 | Measles - South Africa
+Disease Outbreak News
+14 March 2023 | Measles - Nepal
+Disease Outbreak News
+26 February 2023 | Avian Influenza A (H5N1) - Cambodia
+Disease Outbreak News
+25 February 2023 | Marburg virus disease - Equatorial Guinea
+Disease Outbreak News
+24 February 2023 | Cholera - Mozambique
+Disease Outbreak News
+17 February 2023 | Nipah virus infection - Bangladesh
+Disease Outbreak News
+11 February 2023 | Cholera – Global situation
+Disease Outbreak News
+10 February 2023 | Measles - South Sudan
+Disease Outbreak News
+10 February 2023 | Cholera - Democratic Republic of the Congo
+Disease Outbreak News
+9 February 2023 | Cholera - Malawi
+Disease Outbreak News
+8 February 2023 | Middle East Respiratory Syndrome - Oman
+Disease Outbreak News
+8 February 2023 | Meningitis - Niger
+Disease Outbreak News
+2 February 2023 | Measles - Paraguay
+Disease Outbreak News
+18 January 2023 | Human infection caused by avian influenza A(H5) - Ecuador
+Disease Outbreak News
+14 January 2023 | Ebola disease caused by Sudan ebolavirus – Uganda
+Disease Outbreak News
+12 January 2023 | Circulating vaccine-derived poliovirus type 2 - Sudan
+done
+{
+  continent: 'Asia',
+  location: 'India',
+  last_updated_date: '2023-04-02',
+  total_cases: 44707525,
+  new_cases: 1573,
+  new_cases_smoothed: 1505.857,
+  total_deaths: 530841,
+  new_deaths: 0,
+  new_deaths_smoothed: 4,
+  total_cases_per_million: 31546.975,
+  new_cases_per_million: 1.11,
+  new_cases_smoothed_per_million: 1.063,
+  total_deaths_per_million: 374.577,
+  new_deaths_per_million: 0,
+  new_deaths_smoothed_per_million: 0.003,
+  reproduction_rate: null,
+  icu_patients: null,
+  icu_patients_per_million: null,
+  hosp_patients: null,
+  hosp_patients_per_million: null,
+  weekly_icu_admissions: null,
+  weekly_icu_admissions_per_million: null,
+  weekly_hosp_admissions: null,
+  weekly_hosp_admissions_per_million: null,
+  total_tests: null,
+  new_tests: null,
+  total_tests_per_thousand: null,
+  new_tests_per_thousand: null,
+  new_tests_smoothed: null,
+  new_tests_smoothed_per_thousand: null,
+  positive_rate: null,
+  tests_per_case: null,
+  tests_units: null,
+  total_vaccinations: 2206584467,
+  people_vaccinated: 1027400039,
+  people_fully_vaccinated: 951961044,
+  total_boosters: 227223384,
+  new_vaccinations: 2295,
+  new_vaccinations_smoothed: 8431,
+  total_vaccinations_per_hundred: 155.7,
+  people_vaccinated_per_hundred: 72.5,
+  people_fully_vaccinated_per_hundred: 67.17,
+  total_boosters_per_hundred: 16.03,
+  new_vaccinations_smoothed_per_million: 6,
+  new_people_vaccinated_smoothed: 939,
+  new_people_vaccinated_smoothed_per_hundred: 0,
+  stringency_index: null,
+  population_density: 450.419,
+  median_age: 28.2,
+  aged_65_older: 5.989,
+  aged_70_older: 3.414,
+  gdp_per_capita: 6426.674,
+  extreme_poverty: 21.2,
+  cardiovasc_death_rate: 282.28,
+  diabetes_prevalence: 10.39,
+  female_smokers: 1.9,
+  male_smokers: 20.6,
+  handwashing_facilities: 59.55,
+  hospital_beds_per_thousand: 0.53,
+  life_expectancy: 69.66,
+  human_development_index: 0.645,
+  population: 1417173120,
+  excess_mortality_cumulative_absolute: null,
+  excess_mortality_cumulative: null,
+  excess_mortality: null,
+  excess_mortality_cumulative_per_million: null
+}
+Disease Outbreak News
+24 March 2023 | Iatrogenic Botulism- European Region
+Disease Outbreak News
+24 March 2023 | Marburg virus disease - United Republic of Tanzania
+Disease Outbreak News
+23 March 2023 | Geographical expansion of cases of dengue and chikungunya beyond the historical areas of transmission in the Region of the Americas
+Disease Outbreak News
+22 March 2023 | Marburg virus disease - Equatorial Guinea
+Disease Outbreak News
+21 March 2023 | Measles - South Africa
+Disease Outbreak News
+14 March 2023 | Measles - Nepal
+Disease Outbreak News
+26 February 2023 | Avian Influenza A (H5N1) - Cambodia
+Disease Outbreak News
+25 February 2023 | Marburg virus disease - Equatorial Guinea
+Disease Outbreak News
+24 February 2023 | Cholera - Mozambique
+Disease Outbreak News
+17 February 2023 | Nipah virus infection - Bangladesh
+Disease Outbreak News
+11 February 2023 | Cholera – Global situation
+Disease Outbreak News
+10 February 2023 | Measles - South Sudan
+Disease Outbreak News
+10 February 2023 | Cholera - Democratic Republic of the Congo
+Disease Outbreak News
+9 February 2023 | Cholera - Malawi
+Disease Outbreak News
+8 February 2023 | Middle East Respiratory Syndrome - Oman
+Disease Outbreak News
+8 February 2023 | Meningitis - Niger
+Disease Outbreak News
+2 February 2023 | Measles - Paraguay
+Disease Outbreak News
+18 January 2023 | Human infection caused by avian influenza A(H5) - Ecuador
+Disease Outbreak News
+14 January 2023 | Ebola disease caused by Sudan ebolavirus – Uganda
+Disease Outbreak News
+12 January 2023 | Circulating vaccine-derived poliovirus type 2 - Sudan
+done
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1723:21)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (/home/azureuser/apps/DOT/backend/node_modules/express/lib/application.js:635:24)
+    at file:///home/azureuser/apps/DOT/backend/server.js:59:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+
+Node.js v18.14.2
+{
+  continent: 'Asia',
+  location: 'India',
+  last_updated_date: '2023-04-02',
+  total_cases: 44707525,
+  new_cases: 1573,
+  new_cases_smoothed: 1505.857,
+  total_deaths: 530841,
+  new_deaths: 0,
+  new_deaths_smoothed: 4,
+  total_cases_per_million: 31546.975,
+  new_cases_per_million: 1.11,
+  new_cases_smoothed_per_million: 1.063,
+  total_deaths_per_million: 374.577,
+  new_deaths_per_million: 0,
+  new_deaths_smoothed_per_million: 0.003,
+  reproduction_rate: null,
+  icu_patients: null,
+  icu_patients_per_million: null,
+  hosp_patients: null,
+  hosp_patients_per_million: null,
+  weekly_icu_admissions: null,
+  weekly_icu_admissions_per_million: null,
+  weekly_hosp_admissions: null,
+  weekly_hosp_admissions_per_million: null,
+  total_tests: null,
+  new_tests: null,
+  total_tests_per_thousand: null,
+  new_tests_per_thousand: null,
+  new_tests_smoothed: null,
+  new_tests_smoothed_per_thousand: null,
+  positive_rate: null,
+  tests_per_case: null,
+  tests_units: null,
+  total_vaccinations: 2206584467,
+  people_vaccinated: 1027400039,
+  people_fully_vaccinated: 951961044,
+  total_boosters: 227223384,
+  new_vaccinations: 2295,
+  new_vaccinations_smoothed: 8431,
+  total_vaccinations_per_hundred: 155.7,
+  people_vaccinated_per_hundred: 72.5,
+  people_fully_vaccinated_per_hundred: 67.17,
+  total_boosters_per_hundred: 16.03,
+  new_vaccinations_smoothed_per_million: 6,
+  new_people_vaccinated_smoothed: 939,
+  new_people_vaccinated_smoothed_per_hundred: 0,
+  stringency_index: null,
+  population_density: 450.419,
+  median_age: 28.2,
+  aged_65_older: 5.989,
+  aged_70_older: 3.414,
+  gdp_per_capita: 6426.674,
+  extreme_poverty: 21.2,
+  cardiovasc_death_rate: 282.28,
+  diabetes_prevalence: 10.39,
+  female_smokers: 1.9,
+  male_smokers: 20.6,
+  handwashing_facilities: 59.55,
+  hospital_beds_per_thousand: 0.53,
+  life_expectancy: 69.66,
+  human_development_index: 0.645,
+  population: 1417173120,
+  excess_mortality_cumulative_absolute: null,
+  excess_mortality_cumulative: null,
+  excess_mortality: null,
+  excess_mortality_cumulative_per_million: null
+}
+Disease Outbreak News
+24 March 2023 | Iatrogenic Botulism- European Region
+Disease Outbreak News
+24 March 2023 | Marburg virus disease - United Republic of Tanzania
+Disease Outbreak News
+23 March 2023 | Geographical expansion of cases of dengue and chikungunya beyond the historical areas of transmission in the Region of the Americas
+Disease Outbreak News
+22 March 2023 | Marburg virus disease - Equatorial Guinea
+Disease Outbreak News
+21 March 2023 | Measles - South Africa
+Disease Outbreak News
+14 March 2023 | Measles - Nepal
+Disease Outbreak News
+26 February 2023 | Avian Influenza A (H5N1) - Cambodia
+Disease Outbreak News
+25 February 2023 | Marburg virus disease - Equatorial Guinea
+Disease Outbreak News
+24 February 2023 | Cholera - Mozambique
+Disease Outbreak News
+17 February 2023 | Nipah virus infection - Bangladesh
+Disease Outbreak News
+11 February 2023 | Cholera – Global situation
+Disease Outbreak News
+10 February 2023 | Measles - South Sudan
+Disease Outbreak News
+10 February 2023 | Cholera - Democratic Republic of the Congo
+Disease Outbreak News
+9 February 2023 | Cholera - Malawi
+Disease Outbreak News
+8 February 2023 | Middle East Respiratory Syndrome - Oman
+Disease Outbreak News
+8 February 2023 | Meningitis - Niger
+Disease Outbreak News
+2 February 2023 | Measles - Paraguay
+Disease Outbreak News
+18 January 2023 | Human infection caused by avian influenza A(H5) - Ecuador
+Disease Outbreak News
+14 January 2023 | Ebola disease caused by Sudan ebolavirus – Uganda
+Disease Outbreak News
+12 January 2023 | Circulating vaccine-derived poliovirus type 2 - Sudan
+done

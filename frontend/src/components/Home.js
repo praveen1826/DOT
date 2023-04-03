@@ -13,7 +13,7 @@ function Home() {
   const [new_cases, setNewCases] = useState(0);
   const [news, setNews] = useState(0);
   useEffect(() => {
-    fetch("http://localhost:5000")
+    fetch("http://20.219.13.160:5000")
       .then((response) => response.json())
       .then((resData) => {
         setCases({ cases: resData.total_cases });
@@ -22,7 +22,7 @@ function Home() {
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost:5001")
+    fetch("http://20.219.13.160:5001")
       .then((response) => response.json())
       .then((data) => {
         setNews({

@@ -56,4 +56,4 @@ app.get("/", async (req, res) => {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 
-app.listen(3001);
+app.listen(3000);
